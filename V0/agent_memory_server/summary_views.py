@@ -167,10 +167,6 @@ async def delete_summary_view(view_id: str) -> None:
         if cursor == 0:
             break
 
-
-
-
-
 async def save_partition_result(result: SummaryViewPartitionResult) -> None:
     """Persist a single partition result for a SummaryView."""
 
